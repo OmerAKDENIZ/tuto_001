@@ -1,0 +1,4 @@
+<p *ngIf="product && product.price > 700">
+  <!-- emit() est une méthode qui découle EventEmmitter -->
+  <button (click)="notify.emit()">Notify Me</button>
+</p>
